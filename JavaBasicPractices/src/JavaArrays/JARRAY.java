@@ -1,5 +1,6 @@
 package JavaArrays;
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -11,14 +12,20 @@ public class JARRAY {
         try {
             int arrayLength = scanner.nextInt();
             int[] myArray = new int[arrayLength];
+            
+            
 
             //Get Input From User 
             for (int i = 0; i < arrayLength; i++) {
                 myArray[i] = scanner.nextInt();
             }
-
+            
             scanner.close();
 
+            // Array Sorting
+            Arrays.sort(myArray);
+            System.out.println(myArray+"\n\n");
+            
             System.out.println("Output==================/n/n");
             for (int i = 0; i < myArray.length ; i++) {
                 System.out.println(myArray[i]);
@@ -44,6 +51,7 @@ public class JARRAY {
                     min = myArray[i];
                 }
             }
+            
             System.out.println("\nMax = "+max);
             System.out.println("\nMin = "+min);
             
