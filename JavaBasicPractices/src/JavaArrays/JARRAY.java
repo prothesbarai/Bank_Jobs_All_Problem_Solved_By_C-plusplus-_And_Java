@@ -24,11 +24,11 @@ public class JARRAY {
 
             // Array Sorting
             Arrays.sort(myArray);
-            System.out.println(myArray+"\n\n");
+           
             
             System.out.println("Output==================/n/n");
             for (int i = 0; i < myArray.length ; i++) {
-                System.out.println(myArray[i]);
+                System.out.print(myArray[i] + " ");
             }
             int sum =0;
             for (int i = 0; i < myArray.length; i++) {
@@ -36,7 +36,7 @@ public class JARRAY {
             }
             System.out.print("\nSum==== "+sum+"\n");
             float avg = sum/myArray.length;
-            System.out.print("\n========"+avg);
+            System.out.print("\nAvg========"+avg);
             
             
             // max Number and minimum number find here 

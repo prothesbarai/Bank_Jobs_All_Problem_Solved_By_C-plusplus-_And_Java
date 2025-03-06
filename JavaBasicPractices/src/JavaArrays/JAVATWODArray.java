@@ -24,7 +24,8 @@ public class JAVATWODArray {
                 }
                 System.out.println();
             }
-            
+
+            //900 200 100 300 500 400 700 600 800
             
             
             System.out.println("\n\n");
